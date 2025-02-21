@@ -1,0 +1,215 @@
+[
+  {
+    "product_id": 1,
+    "product_name": "iPhone 14 Pro Max",
+    "product_image": "iphone14pro max.jpg",
+    "category": "phone",
+    "price": 1199,
+    "description": "Apple A16 Bionic chip, 48MP main camera",
+    "specification": {
+      "screen": "6.7 inch OLED",
+      "camera": "48MP + 12MP + 12MP",
+      "battery": "4323mAh"
+    },
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": 2,
+    "product_name": "Samsung Galaxy S23 Ultra",
+    "product_image": "s23ultra.jpg",
+    "category": "phone",
+    "price": 1299,
+    "description": "200MP camera, Snapdragon 8 Gen 2",
+    "specification": {
+      "screen": "6.8 inch AMOLED",
+      "camera": "200MP + 12MP + 10MP",
+      "battery": "5000mAh"
+    },
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 3,
+    "product_name": "Google Pixel 7 Pro",
+    "product_image": "pixel7pro.jpg",
+    "category": "phone",
+    "price": 899,
+    "description": "Google Tensor G2 chip, best AI features",
+    "specification": {
+      "screen": "6.7 inch LTPO OLED",
+      "camera": "50MP + 48MP + 12MP",
+      "battery": "5000mAh"
+    },
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 4,
+    "product_name": "OnePlus 11",
+    "product_image": "oneplus11.jpg",
+    "category": "phone",
+    "price": 799,
+    "description": "Snapdragon 8 Gen 2, 100W fast charging",
+    "specification": {
+      "screen": "6.7 inch AMOLED",
+      "camera": "50MP + 48MP + 32MP",
+      "battery": "5000mAh"
+    },
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 5,
+    "product_name": "Xiaomi 13 Pro",
+    "product_image": "xiaomi13pro.jpg",
+    "category": "phone",
+    "price": 699,
+    "description": "Leica optics, Snapdragon 8 Gen 2",
+    "specification": {
+      "screen": "6.73 inch AMOLED",
+      "camera": "50MP + 50MP + 50MP",
+      "battery": "4820mAh"
+    },
+    "availability": false,
+    "rating": 4.5
+  },
+  {
+    "product_id": 6,
+    "product_name": "Asus ROG Phone 6",
+    "product_image": "rogphone6.jpg",
+    "category": "phone",
+    "price": 1099,
+    "description": "Gaming phone with 165Hz refresh rate",
+    "specification": {
+      "screen": "6.78 inch AMOLED",
+      "camera": "50MP + 13MP",
+      "battery": "6000mAh"
+    },
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 7,
+    "product_name": "MacBook Pro 16 M2",
+    "product_image": "macbookpro16.jpg",
+    "category": "laptop",
+    "price": 2499,
+    "description": "Apple M2 Max chip with 16GB RAM",
+    "specification": {
+      "screen": "16 inch Retina Display",
+      "processor": "Apple M2 Max",
+      "ram": "16GB",
+      "storage": "1TB SSD"
+    },
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": 8,
+    "product_name": "Dell XPS 15",
+    "product_image": "dellxps15.jpg",
+    "category": "laptop",
+    "price": 1899,
+    "description": "Intel i7 12th Gen, OLED Display",
+    "specification": {
+      "screen": "15.6 inch OLED",
+      "processor": "Intel i7 12th Gen",
+      "ram": "16GB",
+      "storage": "512GB SSD"
+    },
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 9,
+    "product_name": "HP Spectre x360",
+    "product_image": "hpspectre.jpg",
+    "category": "laptop",
+    "price": 1699,
+    "description": "2-in-1 convertible laptop with touch display",
+    "specification": {
+      "screen": "13.3 inch AMOLED Touch",
+      "processor": "Intel i7 11th Gen",
+      "ram": "16GB",
+      "storage": "1TB SSD"
+    },
+    "availability": false,
+    "rating": 4.7
+  },
+  {
+    "product_id": 10,
+    "product_name": "Apple Watch Ultra",
+    "product_image": "applewatchultra.jpg",
+    "category": "mobile watch",
+    "price": 799,
+    "description": "Titanium case, best for extreme conditions",
+    "specification": {
+      "screen": "1.9 inch OLED",
+      "battery": "36 hours",
+      "features": "ECG, GPS, Blood Oxygen"
+    },
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": 11,
+    "product_name": "Samsung Galaxy Watch 5",
+    "product_image": "galaxywatch5.jpg",
+    "category": "mobile watch",
+    "price": 299,
+    "description": "Smartwatch with health tracking",
+    "specification": {
+      "screen": "1.4 inch AMOLED",
+      "battery": "450mAh",
+      "features": "Heart Rate, Sleep Monitoring"
+    },
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 12,
+    "product_name": "Sony WH-1000XM5",
+    "product_image": "sonyheadphones.jpg",
+    "category": "accessories",
+    "price": 349,
+    "description": "Noise Cancelling Wireless Headphones",
+    "specification": {
+      "battery_life": "30 hours",
+      "connectivity": "Bluetooth 5.0",
+      "features": "Active Noise Cancelling"
+    },
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 13,
+    "product_name": "Anker PowerCore 26800",
+    "product_image": "ankerpowercore.jpg",
+    "category": "accessories",
+    "price": 79,
+    "description": "Portable Power Bank 26800mAh",
+    "specification": {
+      "capacity": "26800mAh",
+      "input": "5V/2A",
+      "output": "5V/3A"
+    },
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 14,
+    "product_name": "Logitech MX Master 3",
+    "product_image": "logitechmx.jpg",
+    "category": "accessories",
+    "price": 99,
+    "description": "Ergonomic Wireless Mouse",
+    "specification": {
+      "connectivity": "Bluetooth, USB Receiver",
+      "battery_life": "70 days",
+      "features": "Customizable Buttons"
+    },
+    "availability": true,
+    "rating": 4.7
+  }
+]
