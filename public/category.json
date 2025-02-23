@@ -1,22 +1,26 @@
 [
   {
-    "id": 1,
-    "category": "Phone",
+    "category": "all",
+    "slug": "all"
+  },
+  {
+    "category": "phone",
     "slug": "phone"
   },
   {
-    "id": 2,
-    "category": "Laptop",
+    "category": "laptop",
     "slug": "laptop"
   },
   {
-    "id": 3,
-    "category": "Mobile Watch",
+    "category": "mobile watch",
     "slug": "mobile-watch"
   },
   {
-    "id": 4,
-    "category": "Accessories",
+    "category": "accessories",
     "slug": "accessories"
+  },
+  {
+    "category": "monitor",
+    "slug": "Monitor"
   }
 ]

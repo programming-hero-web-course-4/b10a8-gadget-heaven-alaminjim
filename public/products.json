@@ -2,9 +2,9 @@
   {
     "product_id": 1,
     "product_name": "iPhone 14 Pro Max",
-    "product_image": "iphone14pro max.jpg",
+    "product_image": "https://i.ibb.co.com/35BJDZb0/gsmarena-005.jpg",
     "category": "phone",
-    "price": 1199,
+    "price": 159000,
     "description": "Apple A16 Bionic chip, 48MP main camera",
     "specification": {
       "screen": "6.7 inch OLED",
@@ -16,55 +16,72 @@
   },
   {
     "product_id": 2,
-    "product_name": "Samsung Galaxy S23 Ultra",
-    "product_image": "s23ultra.jpg",
-    "category": "phone",
-    "price": 1299,
-    "description": "200MP camera, Snapdragon 8 Gen 2",
+    "product_name": "Logitech MX Master 3",
+    "product_image": "https://i.ibb.co.com/Nhnz1Zc/mx-master-3s-top-view-graphite.webp",
+    "category": "accessories",
+    "price": 12000,
+    "description": "Ergonomic Wireless Mouse",
     "specification": {
-      "screen": "6.8 inch AMOLED",
-      "camera": "200MP + 12MP + 10MP",
-      "battery": "5000mAh"
-    },
-    "availability": true,
-    "rating": 4.8
-  },
-  {
-    "product_id": 3,
-    "product_name": "Google Pixel 7 Pro",
-    "product_image": "pixel7pro.jpg",
-    "category": "phone",
-    "price": 899,
-    "description": "Google Tensor G2 chip, best AI features",
-    "specification": {
-      "screen": "6.7 inch LTPO OLED",
-      "camera": "50MP + 48MP + 12MP",
-      "battery": "5000mAh"
+      "connectivity": "Bluetooth, USB Receiver",
+      "battery_life": "70 days",
+      "features": "Customizable Buttons"
     },
     "availability": true,
     "rating": 4.7
   },
+
   {
-    "product_id": 4,
+    "product_id": 3,
     "product_name": "OnePlus 11",
-    "product_image": "oneplus11.jpg",
+    "product_image": "https://i.ibb.co.com/kg8w6TzY/gsmarena-017.jpg",
     "category": "phone",
-    "price": 799,
+    "price": 85000,
     "description": "Snapdragon 8 Gen 2, 100W fast charging",
     "specification": {
       "screen": "6.7 inch AMOLED",
       "camera": "50MP + 48MP + 32MP",
       "battery": "5000mAh"
     },
-    "availability": true,
+    "availability": false,
     "rating": 4.6
   },
   {
+    "product_id": 4,
+    "product_name": "HP Spectre x360",
+    "product_image": "https://i.ibb.co.com/9HpcwLJg/c08873657.webp",
+    "category": "laptop",
+    "price": 105000,
+    "description": "2-in-1 convertible laptop with touch display",
+    "specification": {
+      "screen": "13.3 inch AMOLED Touch",
+      "processor": "Intel i7 11th Gen",
+      "ram": "16GB",
+      "storage": "1TB SSD"
+    },
+    "availability": false,
+    "rating": 4.7
+  },
+  {
     "product_id": 5,
+    "product_name": "Sony WH-1000XM5",
+    "product_image": "https://i.ibb.co.com/4R6vp861/6145c1d32e6ac8e63a46c912dc33c5bb.jpg",
+    "category": "accessories",
+    "price": 85000,
+    "description": "Noise Cancelling Wireless Headphones",
+    "specification": {
+      "battery_life": "30 hours",
+      "connectivity": "Bluetooth 5.0",
+      "features": "Active Noise Cancelling"
+    },
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 6,
     "product_name": "Xiaomi 13 Pro",
-    "product_image": "xiaomi13pro.jpg",
+    "product_image": "https://i.ibb.co.com/0jXTrp7J/gsmarena-002.jpg",
     "category": "phone",
-    "price": 699,
+    "price": 89000,
     "description": "Leica optics, Snapdragon 8 Gen 2",
     "specification": {
       "screen": "6.73 inch AMOLED",
@@ -74,27 +91,13 @@
     "availability": false,
     "rating": 4.5
   },
-  {
-    "product_id": 6,
-    "product_name": "Asus ROG Phone 6",
-    "product_image": "rogphone6.jpg",
-    "category": "phone",
-    "price": 1099,
-    "description": "Gaming phone with 165Hz refresh rate",
-    "specification": {
-      "screen": "6.78 inch AMOLED",
-      "camera": "50MP + 13MP",
-      "battery": "6000mAh"
-    },
-    "availability": true,
-    "rating": 4.7
-  },
+
   {
     "product_id": 7,
     "product_name": "MacBook Pro 16 M2",
-    "product_image": "macbookpro16.jpg",
+    "product_image": "https://i.ibb.co.com/209hbsGN/Mac-Book-Pro-M2-Pro-Space-Grey-a-5196.jpg",
     "category": "laptop",
-    "price": 2499,
+    "price": 210000,
     "description": "Apple M2 Max chip with 16GB RAM",
     "specification": {
       "screen": "16 inch Retina Display",
@@ -108,9 +111,9 @@
   {
     "product_id": 8,
     "product_name": "Dell XPS 15",
-    "product_image": "dellxps15.jpg",
+    "product_image": "https://i.ibb.co.com/35JzNM5t/notebook-xps-15-9530-t-black-gallery-1.jpg",
     "category": "laptop",
-    "price": 1899,
+    "price": 185000,
     "description": "Intel i7 12th Gen, OLED Display",
     "specification": {
       "screen": "15.6 inch OLED",
@@ -123,41 +126,41 @@
   },
   {
     "product_id": 9,
-    "product_name": "HP Spectre x360",
-    "product_image": "hpspectre.jpg",
-    "category": "laptop",
-    "price": 1699,
-    "description": "2-in-1 convertible laptop with touch display",
+    "product_name": "Google Pixel 7 Pro",
+    "product_image": "https://i.ibb.co.com/C3LR8wXk/gsmarena-015.jpg",
+    "category": "phone",
+    "price": 95000,
+    "description": "Google Tensor G2 chip, best AI features",
     "specification": {
-      "screen": "13.3 inch AMOLED Touch",
-      "processor": "Intel i7 11th Gen",
-      "ram": "16GB",
-      "storage": "1TB SSD"
+      "screen": "6.7 inch LTPO OLED",
+      "camera": "50MP + 48MP + 12MP",
+      "battery": "5000mAh"
     },
-    "availability": false,
+    "availability": true,
     "rating": 4.7
   },
+
   {
     "product_id": 10,
     "product_name": "Apple Watch Ultra",
-    "product_image": "applewatchultra.jpg",
+    "product_image": "https://i.ibb.co.com/sp1mGhTr/apple-watch-ultra-1.jpg",
     "category": "mobile watch",
-    "price": 799,
+    "price": 35000,
     "description": "Titanium case, best for extreme conditions",
     "specification": {
       "screen": "1.9 inch OLED",
       "battery": "36 hours",
       "features": "ECG, GPS, Blood Oxygen"
     },
-    "availability": true,
+    "availability": false,
     "rating": 4.9
   },
   {
     "product_id": 11,
     "product_name": "Samsung Galaxy Watch 5",
-    "product_image": "galaxywatch5.jpg",
+    "product_image": "https://i.ibb.co.com/kgQcBsyD/samsung-galaxy-watch5-1.jpg",
     "category": "mobile watch",
-    "price": 299,
+    "price": 42000,
     "description": "Smartwatch with health tracking",
     "specification": {
       "screen": "1.4 inch AMOLED",
@@ -167,27 +170,28 @@
     "availability": true,
     "rating": 4.6
   },
+
   {
     "product_id": 12,
-    "product_name": "Sony WH-1000XM5",
-    "product_image": "sonyheadphones.jpg",
-    "category": "accessories",
-    "price": 349,
-    "description": "Noise Cancelling Wireless Headphones",
+    "product_name": "Asus ROG Phone 6",
+    "product_image": "https://i.ibb.co.com/tM3BM7tf/1713708053-BHE9i.webp",
+    "category": "phone",
+    "price": 299000,
+    "description": "Gaming phone with 165Hz refresh rate",
     "specification": {
-      "battery_life": "30 hours",
-      "connectivity": "Bluetooth 5.0",
-      "features": "Active Noise Cancelling"
+      "screen": "6.78 inch AMOLED",
+      "camera": "50MP + 13MP",
+      "battery": "6000mAh"
     },
-    "availability": true,
-    "rating": 4.8
+    "availability": false,
+    "rating": 4.7
   },
   {
     "product_id": 13,
     "product_name": "Anker PowerCore 26800",
-    "product_image": "ankerpowercore.jpg",
+    "product_image": "https://i.ibb.co.com/5xshBHJC/s-l500.jpg",
     "category": "accessories",
-    "price": 79,
+    "price": 50000,
     "description": "Portable Power Bank 26800mAh",
     "specification": {
       "capacity": "26800mAh",
@@ -199,17 +203,17 @@
   },
   {
     "product_id": 14,
-    "product_name": "Logitech MX Master 3",
-    "product_image": "logitechmx.jpg",
-    "category": "accessories",
-    "price": 99,
-    "description": "Ergonomic Wireless Mouse",
+    "product_name": "Samsung Galaxy S23 Ultra",
+    "product_image": "https://i.ibb.co.com/vv3jbZRG/gsmarena-011.jpg",
+    "category": "phone",
+    "price": 175000,
+    "description": "200MP camera, Snapdragon 8 Gen 2",
     "specification": {
-      "connectivity": "Bluetooth, USB Receiver",
-      "battery_life": "70 days",
-      "features": "Customizable Buttons"
+      "screen": "6.8 inch AMOLED",
+      "camera": "200MP + 12MP + 10MP",
+      "battery": "5000mAh"
     },
     "availability": true,
-    "rating": 4.7
+    "rating": 4.8
   }
 ]

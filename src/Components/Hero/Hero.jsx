@@ -5,7 +5,7 @@ const Hero = () => {
     <div>
       <div>
         <img
-          className="w-[950px] h-[550px] ml-[98px] rounded-lg border-8 border-white"
+          className="w-[850px] h-[450px] ml-[145px] rounded-lg border-8 border-white"
           src={banner}
           alt=""
         />
