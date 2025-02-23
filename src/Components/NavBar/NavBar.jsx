@@ -126,11 +126,23 @@ const NavBar = () => {
           </li>
         </ul>
       </div>
-      <div className="navbar-end ml-3.5 space-x-3.5">
-        <button className="bg-white w-8 h-8 rounded-full">
+      <div className="navbar-end ml-3.5 space-x-3.5 ">
+        <button
+          className={` rounded-full ${
+            location.pathname === "/"
+              ? "bg-white w-8 h-8"
+              : "w-8 h-8 border-[1px] pr-1"
+          }`}
+        >
           <TiShoppingCart className="ml-2"></TiShoppingCart>
         </button>
-        <button className="bg-white w-8 h-8 rounded-full">
+        <button
+          className={` rounded-full ${
+            location.pathname === "/"
+              ? "bg-white w-8 h-8"
+              : "w-8 h-8 border-[1px] pr-1"
+          }`}
+        >
           <FaRegHeart className="ml-2"></FaRegHeart>
         </button>
       </div>

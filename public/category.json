@@ -1,25 +1,31 @@
 [
   {
+    "product_id": 1,
     "category": "all",
     "slug": "all"
   },
   {
+    "product_id": 2,
     "category": "phone",
     "slug": "phone"
   },
   {
+    "product_id": 3,
     "category": "laptop",
     "slug": "laptop"
   },
   {
+    "product_id": 4,
     "category": "mobile watch",
     "slug": "mobile-watch"
   },
   {
+    "product_id": 5,
     "category": "accessories",
     "slug": "accessories"
   },
   {
+    "product_id": 6,
     "category": "monitor",
     "slug": "Monitor"
   }

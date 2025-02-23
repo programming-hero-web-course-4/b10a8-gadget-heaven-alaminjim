@@ -1,6 +1,16 @@
+import { Link } from "react-router-dom";
+
 const Cards = ({ product }) => {
-  const { product_image, product_name, category, price, rating, availability } =
-    product;
+  const {
+    product_image,
+    product_name,
+    category,
+    price,
+    rating,
+    availability,
+    product_id,
+  } = product;
+
   return (
     <div>
       <div className="card bg-base-100 w-72 shadow-xl">
@@ -24,9 +34,11 @@ const Cards = ({ product }) => {
             Available: {availability ? "In Stock" : "Out of Stock"}
           </p>
           <div className="card-actions justify-end mr-2.5 mb-5 mt-2.5">
-            <button className="btn outline-2 outline-offset-0  outline-purple-600 hover:bg-[#9538E2]">
-              More Details
-            </button>
+            <Link to={`/product/${product_id}`}>
+              <button className="btn outline-2 outline-offset-0  outline-purple-600 hover:bg-[#9538E2]">
+                More Details
+              </button>
+            </Link>
           </div>
         </div>
       </div>

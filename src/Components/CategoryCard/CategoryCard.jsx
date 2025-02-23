@@ -16,7 +16,7 @@ const CategoryCard = () => {
       setProducts(data);
     }
   }, [data, category]);
-  console.log(category);
+
   return (
     <div className="mt-14 ml-10">
       {products.length === 0 ? (
