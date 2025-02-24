@@ -26,9 +26,6 @@ const Cart = ({ product }) => {
             <p className="pt-1.5 font-bold">Category: {category}</p>
             <p className="pt-2.5 text-xl font-bold">Price: ${price}</p>
           </div>
-          <div>
-            <button className="flex btn justify-end items-end">Delete</button>
-          </div>
         </div>
       </div>
     </div>

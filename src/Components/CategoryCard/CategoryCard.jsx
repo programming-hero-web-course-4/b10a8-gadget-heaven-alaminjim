@@ -36,10 +36,10 @@ const CategoryCard = () => {
           ))}
         </div>
       )}
-      <div className="">
+      <div>
         <button
           onClick={() => navigate("/products")}
-          className="p-3 w-[239px] h-[12] outline-1 outline-purple-500 mt-6 rounded-full hover:bg-purple-600 hover:text-white"
+          className="p-3 w-[239px] h-16 outline-1 outline-purple-500 mt-6 rounded-full hover:bg-purple-600 hover:text-white"
         >
           Show All
         </button>
