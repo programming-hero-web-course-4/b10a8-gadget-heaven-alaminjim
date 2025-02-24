@@ -21,11 +21,6 @@
   },
   {
     "product_id": 5,
-    "category": "accessories",
-    "slug": "accessories"
-  },
-  {
-    "product_id": 6,
     "category": "monitor",
     "slug": "Monitor"
   }

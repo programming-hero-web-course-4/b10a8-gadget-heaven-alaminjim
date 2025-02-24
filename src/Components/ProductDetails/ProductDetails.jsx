@@ -119,7 +119,7 @@ const ProductDetails = () => {
                 <div className="mt-4 flex space-x-3.5">
                   <button
                     onClick={() => handelCart(product_id)}
-                    className="btn bg-[#9538E2] rounded-full w-[160px] text-amber-50 font-bold"
+                    className="btn border-[1px] border-purple-600 hover:bg-[#9538E2] hover:text-white rounded-full w-[160px] font-bold"
                   >
                     Add To Cart
                     <TiShoppingCart className="w-5 h-5"></TiShoppingCart>
@@ -128,7 +128,7 @@ const ProductDetails = () => {
                     onClick={() => handelWish(product_id)}
                     className="w-10 h-10 border-[1px] rounded-full"
                   >
-                    <FaRegHeart className="w-5 h-5 mt-2.5 ml-2 bg-red-600 rounded-full"></FaRegHeart>
+                    <FaRegHeart className="w-5 h-5 mt-2.5 ml-2 "></FaRegHeart>
                   </p>
                 </div>
               </div>

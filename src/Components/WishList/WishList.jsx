@@ -2,7 +2,6 @@ const WishList = ({ product }) => {
   const { product_name, product_image, price, description, category } = product;
   return (
     <div>
-      <h1 className="font-bold text-xl mt-5">Wish List</h1>
       <div>
         <div className="mt-14">
           <div className="card card-side bg-base-100 shadow-xl">

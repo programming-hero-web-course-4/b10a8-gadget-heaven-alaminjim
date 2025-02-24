@@ -11,7 +11,7 @@ const Layouts = () => {
 
       <Outlet></Outlet>
 
-      <div className="mt-[320px]">
+      <div className="mt-[420px]">
         <Footer></Footer>
       </div>
     </div>

@@ -1,8 +1,9 @@
-import { useLoaderData, useParams } from "react-router-dom";
+import { useLoaderData, useNavigate, useParams } from "react-router-dom";
 import Cards from "../Cards/Cards";
 import { useEffect, useState } from "react";
 
 const CategoryCard = () => {
+  const navigate = useNavigate();
   const data = useLoaderData();
   const { category } = useParams();
   const [products, setProducts] = useState([]);
@@ -13,7 +14,7 @@ const CategoryCard = () => {
       );
       setProducts(singleProduct);
     } else {
-      setProducts(data);
+      setProducts(data.slice(0, 8));
     }
   }, [data, category]);
 
@@ -35,6 +36,14 @@ const CategoryCard = () => {
           ))}
         </div>
       )}
+      <div className="">
+        <button
+          onClick={() => navigate("/products")}
+          className="p-3 w-[239px] h-[12] outline-1 outline-purple-500 mt-6 rounded-full hover:bg-purple-600 hover:text-white"
+        >
+          Show All
+        </button>
+      </div>
     </div>
   );
 };

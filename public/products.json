@@ -14,24 +14,9 @@
     "availability": true,
     "rating": 4.9
   },
-  {
-    "product_id": 2,
-    "product_name": "Logitech MX Master 3",
-    "product_image": "https://i.ibb.co.com/Nhnz1Zc/mx-master-3s-top-view-graphite.webp",
-    "category": "accessories",
-    "price": 12000,
-    "description": "Ergonomic Wireless Mouse",
-    "specification": {
-      "connectivity": "Bluetooth, USB Receiver",
-      "battery_life": "70 days",
-      "features": "Customizable Buttons"
-    },
-    "availability": true,
-    "rating": 4.7
-  },
 
   {
-    "product_id": 3,
+    "product_id": 2,
     "product_name": "OnePlus 11",
     "product_image": "https://i.ibb.co.com/kg8w6TzY/gsmarena-017.jpg",
     "category": "phone",
@@ -46,7 +31,7 @@
     "rating": 4.6
   },
   {
-    "product_id": 4,
+    "product_id": 3,
     "product_name": "HP Spectre x360",
     "product_image": "https://i.ibb.co.com/9HpcwLJg/c08873657.webp",
     "category": "laptop",
@@ -62,22 +47,7 @@
     "rating": 4.7
   },
   {
-    "product_id": 5,
-    "product_name": "Sony WH-1000XM5",
-    "product_image": "https://i.ibb.co.com/4R6vp861/6145c1d32e6ac8e63a46c912dc33c5bb.jpg",
-    "category": "accessories",
-    "price": 85000,
-    "description": "Noise Cancelling Wireless Headphones",
-    "specification": {
-      "battery_life": "30 hours",
-      "connectivity": "Bluetooth 5.0",
-      "features": "Active Noise Cancelling"
-    },
-    "availability": true,
-    "rating": 4.8
-  },
-  {
-    "product_id": 6,
+    "product_id": 4,
     "product_name": "Xiaomi 13 Pro",
     "product_image": "https://i.ibb.co.com/0jXTrp7J/gsmarena-002.jpg",
     "category": "phone",
@@ -93,7 +63,7 @@
   },
 
   {
-    "product_id": 7,
+    "product_id": 5,
     "product_name": "MacBook Pro 16 M2",
     "product_image": "https://i.ibb.co.com/209hbsGN/Mac-Book-Pro-M2-Pro-Space-Grey-a-5196.jpg",
     "category": "laptop",
@@ -108,24 +78,9 @@
     "availability": true,
     "rating": 4.9
   },
+
   {
-    "product_id": 8,
-    "product_name": "Dell XPS 15",
-    "product_image": "https://i.ibb.co.com/35JzNM5t/notebook-xps-15-9530-t-black-gallery-1.jpg",
-    "category": "laptop",
-    "price": 185000,
-    "description": "Intel i7 12th Gen, OLED Display",
-    "specification": {
-      "screen": "15.6 inch OLED",
-      "processor": "Intel i7 12th Gen",
-      "ram": "16GB",
-      "storage": "512GB SSD"
-    },
-    "availability": true,
-    "rating": 4.8
-  },
-  {
-    "product_id": 9,
+    "product_id": 6,
     "product_name": "Google Pixel 7 Pro",
     "product_image": "https://i.ibb.co.com/C3LR8wXk/gsmarena-015.jpg",
     "category": "phone",
@@ -141,7 +96,7 @@
   },
 
   {
-    "product_id": 10,
+    "product_id": 7,
     "product_name": "Apple Watch Ultra",
     "product_image": "https://i.ibb.co.com/sp1mGhTr/apple-watch-ultra-1.jpg",
     "category": "mobile watch",
@@ -156,7 +111,7 @@
     "rating": 4.9
   },
   {
-    "product_id": 11,
+    "product_id": 8,
     "product_name": "Samsung Galaxy Watch 5",
     "product_image": "https://i.ibb.co.com/kgQcBsyD/samsung-galaxy-watch5-1.jpg",
     "category": "mobile watch",
@@ -172,7 +127,7 @@
   },
 
   {
-    "product_id": 12,
+    "product_id": 9,
     "product_name": "Asus ROG Phone 6",
     "product_image": "https://i.ibb.co.com/tM3BM7tf/1713708053-BHE9i.webp",
     "category": "phone",
@@ -187,22 +142,7 @@
     "rating": 4.7
   },
   {
-    "product_id": 13,
-    "product_name": "Anker PowerCore 26800",
-    "product_image": "https://i.ibb.co.com/5xshBHJC/s-l500.jpg",
-    "category": "accessories",
-    "price": 50000,
-    "description": "Portable Power Bank 26800mAh",
-    "specification": {
-      "capacity": "26800mAh",
-      "input": "5V/2A",
-      "output": "5V/3A"
-    },
-    "availability": true,
-    "rating": 4.6
-  },
-  {
-    "product_id": 14,
+    "product_id": 10,
     "product_name": "Samsung Galaxy S23 Ultra",
     "product_image": "https://i.ibb.co.com/vv3jbZRG/gsmarena-011.jpg",
     "category": "phone",

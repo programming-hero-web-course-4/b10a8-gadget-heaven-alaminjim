@@ -35,7 +35,7 @@ const Cards = ({ product }) => {
           </p>
           <div className="card-actions justify-end mr-2.5 mb-5 mt-2.5">
             <Link to={`/product/${product_id}`}>
-              <button className="btn outline-2 outline-offset-0  outline-purple-600 hover:bg-[#9538E2]">
+              <button className="btn border-[1px] border-purple-600 hover:bg-[#9538E2] hover:text-white">
                 More Details
               </button>
             </Link>
